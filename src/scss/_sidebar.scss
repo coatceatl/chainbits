@@ -32,8 +32,8 @@
 
 .nums {
   height: 60px;
-  margin-top: 0.9em;
-  margin-left: 0.95em;
+  margin-top: 0.9rem;
+  margin-left: 0.95rem;
 }
 
 .num-txt {
@@ -43,6 +43,29 @@
   display: block;
   opacity: 0.4;
   margin-top: 8px;
+}
+/* form */
+.form {
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  border-radius: 10px;
+  box-shadow: 0 0 65px rgba(21, 171, 227, 0.07);
+}
+.btn.sidebar-btn {
+  font-size: remy(14px);
+  font-weight: 300;
+  line-height: remy(14px);
+  color: #fff;
+  background-color: #15abe3;
+  border-radius: 22px;
+  border: 1px solid #3bb8e7;
+  box-shadow: 0 0 43px rgba(21, 171, 227, 0.13);
+  text-shadow: 1px -2px 2px rgba(0, 0, 0, 0.43);
+  padding: 11px 54px 9px 55px;
+
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+  }
 }
 
 
