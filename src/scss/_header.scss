@@ -1,7 +1,14 @@
 .page {
   background: url(../img/bg.png) 100% 100%/cover no-repeat;
 }
-.header-btn {
+.header {
+  padding-top: 22px;
+}
+.header-top {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn.header-btn {
   font-size: remy(14px);
   font-weight: 300;
   color: #fff;
@@ -9,7 +16,7 @@
   border-radius: 18px;
   box-shadow: 0 0 43px rgba(21, 171, 227, 0.13);
   text-shadow: 1px -2px 2px rgba(0, 0, 0, 0.43);
-  padding: 16px 30px 14px 30px;
+  padding: 13px 56px 9px 57px;
 
   &:hover {
     text-decoration: none;
