@@ -2,9 +2,20 @@ import $ from 'jquery';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery-countdown';
 
+var date='2018/09/03';
+
 $(document).ready(function() {
-  $("#getting-started").countdown("2018/09/01", function(event) {
-    $(this).text(event.strftime('%D days %H:%M:%S'));
+  $('#days').countdown(date, function(e) {
+    $(this).text(e.strftime('%D'));
+  });
+  $('#hours').countdown(date, function(e) {
+    $(this).text(e.strftime('%H'));
+  });
+  $('#minutes').countdown(date, function(e) {
+    $(this).text(e.strftime('%M'));
+  });
+  $('#seconds').countdown(date, function(e) {
+    $(this).text(e.strftime('%S'));
   });
 });
 
