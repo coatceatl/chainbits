@@ -49,23 +49,54 @@
   border: 1px solid rgba(255, 255, 255, 0.23);
   border-radius: 10px;
   box-shadow: 0 0 65px rgba(21, 171, 227, 0.07);
+  padding: 34px 50px 26px 30px;
+  width: 388px;
+  height: 550px;
+}
+.form-nav__list.nav.nav-pills {
+  width: 100%;
+  justify-content: space-between;
 }
 .btn.sidebar-btn {
-  font-size: remy(14px);
-  font-weight: 300;
-  line-height: remy(14px);
+  font-size: remy(15px);
+  font-weight: 400;
+  line-height: remy(15px);
   color: #fff;
   background-color: #15abe3;
   border-radius: 22px;
-  border: 1px solid #3bb8e7;
-  box-shadow: 0 0 43px rgba(21, 171, 227, 0.13);
-  text-shadow: 1px -2px 2px rgba(0, 0, 0, 0.43);
-  padding: 11px 54px 9px 55px;
+  padding: 17px 43px 13px 44px;
+  margin: 12px 0;
 
   &:hover {
     text-decoration: none;
     color: #fff;
+    box-shadow: 0 4px 7px 1px rgba(62, 203, 255, 0.29);
   }
 }
+.bordered.nav-link {
+  width: 23px;
+  height: 23px;
+  padding: 0 !important;
+  background-color: rgba(160,160,160,.35);
+  color: #fff;
+  font-size: remy(12px);
+  font-weight: 300;
+  line-height: remy(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar-title {
+  margin-top: 22px;
+  margin-bottom: 15px;
+  font-size: remy(21px);
+  font-weight: 300;
+  line-height: remy(17px);
+}
+.sidebar-text {
+  font-size: remy(15px);
+  font-weight: 300;
+  line-height: remy(16px);
+  margin-bottom: 12px;
 
-
+}
