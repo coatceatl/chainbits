@@ -66,13 +66,29 @@
   background-color: #15abe3;
   border-radius: 22px;
   padding: 17px 43px 13px 44px;
-  margin: 12px 0;
+  margin-top: 12px;
+  margin-bottom: 24px;
 
   &:hover {
     text-decoration: none;
     color: #fff;
     box-shadow: 0 4px 7px 1px rgba(62, 203, 255, 0.29);
   }
+}
+.nav-item {
+  &:after {
+    content: '';
+    position: absolute;
+    top: 17%;
+    width: 38px;
+    border: 1px solid rgba(226,226,226,.1);
+    margin-left: 15px;
+  }
+ &:last-child {
+   &:after {
+     display: none;
+   }
+ }
 }
 .bordered.nav-link {
   width: 23px;
@@ -100,9 +116,13 @@
   line-height: remy(16px);
   margin-bottom: 12px;
 }
+.tab-content {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid rgba(255,255,255,.3);
+}
 .tabs-list {
   list-style: none;
-  margin-top: 12px;
 }
 .tabs-item {
   margin-bottom: 9px;
@@ -138,4 +158,15 @@
   font-size: remy(14px);
   font-weight: 300;
   line-height: remy(11px);
+}
+.signup {
+  font-size: remy(15px);
+  font-weight: 400;
+  line-height: remy(15px);
+}
+.signup-link {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
 }

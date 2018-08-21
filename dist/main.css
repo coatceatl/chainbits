@@ -1,6 +1,9 @@
 body {
   font-family: "Titillium Web", sans-serif; }
 
+ul {
+  padding-left: 0; }
+
 .page {
   background: url(img/bg.png) top center/cover no-repeat;
   height: 100vh; }
@@ -134,11 +137,23 @@ h2.title {
   background-color: #15abe3;
   border-radius: 22px;
   padding: 17px 43px 13px 44px;
-  margin: 12px 0; }
+  margin-top: 12px;
+  margin-bottom: 24px; }
   .btn.sidebar-btn:hover {
     text-decoration: none;
     color: #fff;
     box-shadow: 0 4px 7px 1px rgba(62, 203, 255, 0.29); }
+
+.nav-item:after {
+  content: '';
+  position: absolute;
+  top: 17%;
+  width: 38px;
+  border: 1px solid rgba(226, 226, 226, 0.1);
+  margin-left: 15px; }
+
+.nav-item:last-child:after {
+  display: none; }
 
 .bordered.nav-link {
   width: 23px;
@@ -166,9 +181,13 @@ h2.title {
   line-height: 1rem;
   margin-bottom: 12px; }
 
+.tab-content {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3); }
+
 .tabs-list {
-  list-style: none;
-  margin-top: 12px; }
+  list-style: none; }
 
 .tabs-item {
   margin-bottom: 9px; }
@@ -204,6 +223,16 @@ h2.title {
   font-size: 0.875rem;
   font-weight: 300;
   line-height: 0.6875rem; }
+
+.signup {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 0.9375rem; }
+
+.signup-link {
+  text-decoration: underline; }
+  .signup-link:hover {
+    text-decoration: none; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
@@ -344,12 +373,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #007bff;
+  color: #15abe3;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #0056b3;
+    color: #15abe3;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -2226,10 +2255,10 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #007bff;
+  color: #15abe3;
   background-color: transparent; }
   .btn-link:hover {
-    color: #0056b3;
+    color: #15abe3;
     text-decoration: underline;
     background-color: transparent;
     border-color: transparent; }
@@ -3464,12 +3493,12 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #15abe3;
   background-color: #fff;
   border: 1px solid #dee2e6; }
   .page-link:hover {
     z-index: 2;
-    color: #0056b3;
+    color: #15abe3;
     text-decoration: none;
     background-color: #e9ecef;
     border-color: #dee2e6; }
