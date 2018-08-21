@@ -53,10 +53,18 @@
 .hero-body {
   display: flex;
   justify-content: center;
+  background: url(../img/eth.png) left center no-repeat;
+  height: 35%;
+  margin-left: -2.55em;
   @media screen and (max-width: 576px) {
     justify-content: start;
     margin-bottom: 60px;
   }
+}
+.hero-body__text {
+  position: absolute;
+  top: 20%;
+  left: 25%;
 }
 .main-title {
   font-size: remy(63px);
@@ -68,6 +76,10 @@
     line-height: 1.2;
     margin-bottom: 20px;
   }
+  @media screen and (max-width: 992px) {
+    font-size: remy(48px);
+    line-height: 1.2;
+  }
 }
 .bold {
   font-weight: 600;
@@ -78,7 +90,11 @@
   line-height: remy(63px);
   text-transform: uppercase;
   @media screen and (max-width: 576px) {
-    font-size: remy(48px);
+    font-size: remy(42px);
+    line-height: 1.2;
+  }
+  @media screen and (max-width: 992px) {
+    font-size: remy(50px);
     line-height: 1.2;
   }
 }
@@ -89,6 +105,10 @@
   text-transform: uppercase;
   @media screen and (max-width: 576px) {
     font-size: remy(42px);
+    line-height: 1.2;
+  }
+  @media screen and (max-width: 992px) {
+    font-size: remy(44px);
     line-height: 1.2;
   }
 }

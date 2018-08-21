@@ -51,11 +51,19 @@ ul {
 /* main */
 .hero-body {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  background: url(img/eth.png) left center no-repeat;
+  height: 35%;
+  margin-left: -2.55em; }
   @media screen and (max-width: 576px) {
     .hero-body {
       justify-content: start;
       margin-bottom: 60px; } }
+
+.hero-body__text {
+  position: absolute;
+  top: 20%;
+  left: 25%; }
 
 .main-title {
   font-size: 3.9375rem;
@@ -67,6 +75,10 @@ ul {
       font-size: 2rem;
       line-height: 1.2;
       margin-bottom: 20px; } }
+  @media screen and (max-width: 992px) {
+    .main-title {
+      font-size: 3rem;
+      line-height: 1.2; } }
 
 .bold {
   font-weight: 600; }
@@ -78,7 +90,11 @@ ul {
   text-transform: uppercase; }
   @media screen and (max-width: 576px) {
     .title {
-      font-size: 3rem;
+      font-size: 2.625rem;
+      line-height: 1.2; } }
+  @media screen and (max-width: 992px) {
+    .title {
+      font-size: 3.125rem;
       line-height: 1.2; } }
 
 .subtitle {
@@ -89,6 +105,10 @@ ul {
   @media screen and (max-width: 576px) {
     .subtitle {
       font-size: 2.625rem;
+      line-height: 1.2; } }
+  @media screen and (max-width: 992px) {
+    .subtitle {
+      font-size: 2.75rem;
       line-height: 1.2; } }
 
 .eth {
@@ -134,8 +154,7 @@ h2.title {
 
 .nums {
   height: 60px;
-  margin-top: 0.9rem;
-  margin-left: 0.95rem; }
+  margin-top: 0.9rem; }
   @media screen and (max-width: 576px) {
     .nums {
       margin-left: -15px; } }
