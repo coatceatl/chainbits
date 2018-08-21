@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,600" rel="stylesheet">
+    <link href="style/style.css?v=343333443332333444" rel="stylesheet" type="text/css">
+    <link href="style/creative.css?v=1243344333" rel="stylesheet" type="text/css">
+    <script src="script/scale.js"></script>
+    <script src="script/countdown.js"></script>
+    <title>ChainBits</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="container">
+        <div class="header"> <img src="images/logo.png" class="logo" alt="ChainBits" /> <a class="btn hollow login">Log in</a>
+          <div class="clear"></div>
+        </div>
+        <div class="main">
+          <div class="content">
+            <div class="light"> <span class="txt1">ChainBits Weekly Competition, <span class="yellow">Round One:</span></span>
+              <h1 class="main_title">Predict The Trending Cryptos</h1>
+              <h2 class="title2">WIN <span class="eth">1ETH</span></h2>
+              <span class="txt2">Predict which cryptocurrencies will have the biggest<br>
+                weekly gains by <span class="yellow">Thursday, 7/9/2018, 12:00 PM, EST</span></span> <a class="btn hollow white_btn view_results">View <span class="yellow">Round One</span> Results!</a>
+              <div class="sidebar">
+                <div class="timer light">
+                  <h2 class="timer_title"><span class="yellow">ROUND ONE</span> ENDS IN:</h2>
+                  <div class="nums">
+                    <div id="count"></div>
+                    <div class="num"> <span class="num_big"><span id="days">12</span></span> <span class="num_txt">days</span> </div>
+                    <div class="circle"></div>
+                    <div class="num"> <span class="num_big"><span id="hours">14</span></span> <span class="num_txt">hours</span> </div>
+                    <div class="circle"></div>
+                    <div class="num"> <span class="num_big"><span id="minutes">29</span></span> <span class="num_txt">minutes</span> </div>
+                    <div class="circle"></div>
+                    <div class="num"> <span class="num_big"><span id="seconds">57</span></span> <span class="num_txt">secondes</span> </div>
+                    <div class="clear"></div>
+                  </div>
+                  <div class="line_full">
+                    <div class="line_half"></div>
+                  </div>
+                </div>
+                <div class="form"></div>
+              </div>
+              <div class="guidelines">
+                <h2 class="title3">Competition Guidelines</h2>
+                <ul class="guides">
+                  <li class="li">Users who participate in all 8 rounds can win up to <span class="yellow">10 ETH</span> </li>
+                  <li class="li">In each round the winner must predict the top 5 cryptocurencies that will have the greatest 7 day price increase. The choices must be placed in decending order from the greatest increase to the least. </li>
+                  <li class="li">If more than one person guesses correctly, only the first submitted answer wins. </li>
+                  <li class="li">After 8 weeks, the person with the highest accumulated score (based on our point system) will win 2 ETH. In the event of a tie, the prize (2 ETH) will be divided equally among those tied.</li>
+                  <li class="li">In the event of a tie, the prize (2 ETH) will be divided equally among those tied.</li>
+                  <li class="li">Point system:  1 point is awarded for each correct currency guessed. 3 points are awarded for each correct currency in its proper place (1-5). </li>
+                  <li class="li">During the 8 week period ChainBits may add bonus question for extra points. </li>
+                  <li class="li">In order to be eligible for the weekly/highest score prize you must 1. follow <a class="lightblue">@chainbitsweb</a> on twitter 2. retweet the pinned message. </li>
+                </ul>
+                <span class="txt3 bold">Results are based on <a class="lightblue" target="_blank" href="https://coinmarketmetrics.com">coinmarketmetrics.com</a> from a list of cryptocurrencies with a market cap greater than or equal to 50M.</span> <img src="images/pic.png" class="pic" alt="click to zoom" /> </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="bottom light">
+            <h2 class="title4">Competition Terms &amp; Conditions</h2>
+            <ul class="guides terms">
+              <li class="li">Only users who successfully complete the registration form are qualified to win the weekly competition. </li>
+              <li class="li">Each submission is only relevant if submitted during the stated time for the relevant week's competition. </li>
+              <li class="li">In order to be eligible to receive a winning prize you must follow all of the competition rules as stated above. </li>
+              <li class="li">Once submitted competition answers cannot be modified.</li>
+              <li class="li">ChainBits reserves the right to cancel or terminate the competition at any time without prior notice and without giving reasons. </li>
+              <li class="li">By signing up to the weekly competition you agree to our <a class="underline">Terms and Conditions</a>, <a class="underline">Privacy Policy</a> and <a class="underline">Cookie Policy</a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer light">Copyright © 2018 ChainBits. All Rights Reserved.</div>
+    </div>
+    <script>
+var date="2018/09/03";
+$("#days").countdown(date, function(event) {$(this).text(event.strftime('%D'));});
+$("#hours").countdown(date, function(event) {$(this).text(event.strftime('%H'));});
+$("#minutes").countdown(date, function(event) {$(this).text(event.strftime('%M'));});
+$("#seconds").countdown(date, function(event) {$(this).text(event.strftime('%S'));});
+    </script>
+</body>
+</html>
