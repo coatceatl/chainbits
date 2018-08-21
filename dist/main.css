@@ -144,8 +144,7 @@ h2.title {
   border: 1px solid rgba(255, 255, 255, 0.23);
   border-radius: 10px;
   box-shadow: 0 0 65px rgba(21, 171, 227, 0.07);
-  padding: 28px 50px 26px 52px;
-  width: 388px;
+  padding: 28px 20px 26px 20px;
   background-color: rgba(255, 255, 255, 0.1);
   margin-left: -30px;
   margin-top: 21px; }
@@ -205,8 +204,7 @@ h2.title {
   font-size: 0.9375rem;
   font-weight: 300;
   line-height: 1rem;
-  margin-bottom: 12px;
-  margin-left: -20px; }
+  margin-bottom: 12px; }
 
 .tab-content {
   margin-top: 24px;
@@ -261,6 +259,15 @@ h2.title {
   border: 0; }
   .signup-link:hover {
     text-decoration: none; }
+
+.input-btn {
+  background-color: #fff;
+  border: 1px solid #e7e9ea;
+  border-radius: 5px;
+  padding-left: 13px;
+  height: 42px; }
+  .input-btn:hover {
+    box-shadow: 0 0 13px rgba(83, 208, 255, 0.09); }
 
 .main-bottom {
   padding-bottom: 31px; }
