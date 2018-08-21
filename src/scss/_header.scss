@@ -42,11 +42,10 @@
   margin-right: 5px;
   margin-left: 5px;
 }
-
 /* main */
 //.hero-content {
+//  background: url(../img/eth.png) top center/cover no-repeat;
 //  height: 730px;
-//  background: url(../img/eth.png) left center no-repeat;
 //}
 .main-title {
   font-size: remy(63px);
@@ -72,7 +71,6 @@
 .eth {
   text-shadow: 0 0 0.5em #fcc20f;
 }
-.hero-body__text {
-  padding-top: 30px;
-  padding-bottom: 30px;
+h2.title {
+  margin-bottom: 28px !important;
 }

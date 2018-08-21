@@ -67,9 +67,8 @@ body {
 .eth {
   text-shadow: 0 0 0.5em #fcc20f; }
 
-.hero-body__text {
-  padding-top: 30px;
-  padding-bottom: 30px; }
+h2.title {
+  margin-bottom: 28px !important; }
 
 .sidebar {
   padding-left: 30px !important;
@@ -120,7 +119,8 @@ body {
   box-shadow: 0 0 65px rgba(21, 171, 227, 0.07);
   padding: 34px 50px 26px 30px;
   width: 388px;
-  height: 550px; }
+  height: 550px;
+  background-color: rgba(255, 255, 255, 0.1); }
 
 .form-nav__list.nav.nav-pills {
   width: 100%;
