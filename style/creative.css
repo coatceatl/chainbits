@@ -134,16 +134,13 @@
 .view_results {
 	margin-top: 1.7em;
 }
-
 .guidelines {
 	width: 100%;
-	border-top: 2px solid #56575e;
-	margin-top: 2em;
-	padding-top: 0.6em;
+	margin-top: 0.9em;
 }
-
 .title3 {
 	font-size: 1em;
+  margin-top: 0.86em;
 }
 
 .guides {
@@ -163,11 +160,30 @@
 	background-size: 0.45em auto;
 	margin-bottom: 0.7em;
 }
+.guides-item {
+	background-image: url(../images/list-black.png);
+}
+.bg-item {
+  background-color: #252525;
+  border-radius: 2px;
+  color: #fff;
+  list-style: none;
+  width: 512px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.6em;
+}
+
 
 .lightblue {
   color: #15abe3;
 	text-decoration: underline;
 	cursor: pointer;
+}
+.link {
+  font-size: 0.8em;
 }
 
 .txt3 {
@@ -316,6 +332,21 @@
 	}
 
 }
+
+.header-guidelines {
+  background-color: #313131;
+}
+.container.guidelines-container {
+  padding: 0.33em 0.5em;
+}
+.guidelines-main {
+  background-color: #fff;
+  color: #252525;
+}
+
+
+
+
 
 .form-nav__list.nav.nav-pills {
   width: 100%;
