@@ -7,6 +7,9 @@ ul {
 .page {
   background: url(img/bg.png) top center/cover no-repeat;
   height: 100vh; }
+  @media screen and (max-width: 576px) {
+    .page {
+      background: url(img/bg-mobile.jpg) top center/cover no-repeat; } }
 
 .header {
   padding-top: 21px;
