@@ -1,6 +1,9 @@
 .sidebar {
   padding-left: 30px !important;
   margin-top: -25px;
+  @media screen and (max-width: 576px) {
+    margin-top: 30%;
+  }
 }
 .timer {
   color: white;

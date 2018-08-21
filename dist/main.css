@@ -61,7 +61,8 @@ ul {
   @media screen and (max-width: 576px) {
     .hero-body {
       justify-content: start;
-      margin-bottom: 60px; } }
+      margin-bottom: 60px;
+      background: none; } }
 
 .hero-body__text {
   position: absolute;
@@ -126,6 +127,9 @@ h2.title {
 .sidebar {
   padding-left: 30px !important;
   margin-top: -25px; }
+  @media screen and (max-width: 576px) {
+    .sidebar {
+      margin-top: 30%; } }
 
 .timer {
   color: white;
