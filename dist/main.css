@@ -146,7 +146,6 @@ h2.title {
   box-shadow: 0 0 65px rgba(21, 171, 227, 0.07);
   padding: 28px 50px 26px 52px;
   width: 388px;
-  height: 550px;
   background-color: rgba(255, 255, 255, 0.1);
   margin-left: -30px;
   margin-top: 21px; }
@@ -170,16 +169,17 @@ h2.title {
     color: #fff;
     box-shadow: 0 4px 7px 1px rgba(62, 203, 255, 0.29); }
 
-.nav-item:after {
-  content: '';
-  position: absolute;
-  top: 20%;
-  width: 38px;
-  border: 1px solid rgba(226, 226, 226, 0.1);
-  margin-left: 15px; }
-
-.nav-item:last-child:after {
-  display: none; }
+.nav-item {
+  position: relative; }
+  .nav-item:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 38px;
+    border: 1px solid rgba(226, 226, 226, 0.1);
+    margin-left: 15px; }
+  .nav-item:last-child:after {
+    display: none; }
 
 .bordered.nav-link {
   width: 23px;
@@ -210,8 +210,7 @@ h2.title {
 
 .tab-content {
   margin-top: 24px;
-  margin-bottom: 24px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.3); }
+  margin-bottom: 24px; }
 
 .tabs-list {
   list-style: none; }
@@ -254,10 +253,13 @@ h2.title {
 .signup {
   font-size: 0.9375rem;
   font-weight: 400;
-  line-height: 0.9375rem; }
+  line-height: 0.9375rem;
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+  padding-top: 24px; }
 
 .signup-link {
-  text-decoration: underline; }
+  text-decoration: underline;
+  border: 0; }
   .signup-link:hover {
     text-decoration: none; }
 
