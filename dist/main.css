@@ -166,6 +166,39 @@ h2.title {
   line-height: 1rem;
   margin-bottom: 12px; }
 
+.tabs-list {
+  list-style: none;
+  margin-top: 12px; }
+
+.tabs-item {
+  margin-bottom: 9px; }
+
+.btn.btn-numbers {
+  color: #444;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  line-height: 0.875rem;
+  border: 1px solid #e7e9ea;
+  border-radius: 5px 0 0 5px;
+  background-color: #f6f6f6;
+  width: 48px;
+  height: 42px; }
+
+.btn.btn-text {
+  color: #3d3c3c;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 0.75rem;
+  text-transform: uppercase;
+  border: 1px solid #e7e9ea;
+  border-radius: 0 5px 5px 0;
+  background-color: #fff;
+  width: 218px;
+  height: 42px;
+  padding-left: 13px;
+  margin-left: -4px;
+  text-align: left; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors

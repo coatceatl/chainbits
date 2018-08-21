@@ -99,5 +99,37 @@
   font-weight: 300;
   line-height: remy(16px);
   margin-bottom: 12px;
-
+}
+.tabs-list {
+  list-style: none;
+  margin-top: 12px;
+}
+.tabs-item {
+  margin-bottom: 9px;
+}
+.btn.btn-numbers {
+  color: #444;
+  font-size: remy(21px);
+  font-weight: 400;
+  line-height: remy(14px);
+  border: 1px solid #e7e9ea;
+  border-radius: 5px 0 0 5px;
+  background-color: #f6f6f6;
+  width: 48px;
+  height: 42px;
+}
+.btn.btn-text {
+  color: #3d3c3c;
+  font-size: remy(15px);
+  font-weight: 400;
+  line-height: remy(12px);
+  text-transform: uppercase;
+  border: 1px solid #e7e9ea;
+  border-radius: 0 5px 5px 0;
+  background-color: #fff;
+  width: 218px;
+  height: 42px;
+  padding-left: 13px;
+  margin-left: -4px;
+  text-align: left;
 }
