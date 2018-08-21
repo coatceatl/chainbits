@@ -99,24 +99,23 @@
 
 .title2 {
 	font-size: 3.16em;
-	width: 7em;
+	width: 9em;
 	text-align: right;
-	height: 3.3em;
-	padding-top: 0.35em;
+	height: 5.3em;
+	padding-top: 2.1em;
 	background-image: url(../images/eth.png?V=1);
 	background-size: auto 100%;
 	background-position: left center;
 	background-repeat: no-repeat;
-	margin-left: -0.55em;
+	margin-left: -0.9em;
 	margin-bottom: 0.1em;
-  margin-top: 100px;
 }
 .subtitle {
   display: block;
 	font-size: 0.79em;
 	text-align: right;
 	height: 3.3em;
-	padding-top: 0.6em;
+	padding-top: 0.9em;
   margin-right: -0.1em;
 }
 
