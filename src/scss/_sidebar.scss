@@ -53,6 +53,7 @@
   width: 388px;
   height: 550px;
   background-color: rgba(255,255,255,0.1);
+  margin-left: -30px;
 }
 .form-nav__list.nav.nav-pills {
   width: 100%;
@@ -166,6 +167,19 @@
 }
 .signup-link {
   text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.main-bottom__text {
+  font-size: remy(20px);
+  font-weight: 300;
+  line-height: remy(38px);
+  text-shadow: 1px -2px 2px rgba(0, 0, 0, 0.43);
+}
+.main-bottom__link {
+  text-decoration: underline;
+  font-weight: 400;
   &:hover {
     text-decoration: none;
   }

@@ -123,7 +123,8 @@ h2.title {
   padding: 34px 50px 26px 30px;
   width: 388px;
   height: 550px;
-  background-color: rgba(255, 255, 255, 0.1); }
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-left: -30px; }
 
 .form-nav__list.nav.nav-pills {
   width: 100%;
@@ -232,6 +233,18 @@ h2.title {
 .signup-link {
   text-decoration: underline; }
   .signup-link:hover {
+    text-decoration: none; }
+
+.main-bottom__text {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 2.375rem;
+  text-shadow: 1px -2px 2px rgba(0, 0, 0, 0.43); }
+
+.main-bottom__link {
+  text-decoration: underline;
+  font-weight: 400; }
+  .main-bottom__link:hover {
     text-decoration: none; }
 
 /*!
