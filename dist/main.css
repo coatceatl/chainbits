@@ -38,6 +38,9 @@ ul {
   font-size: 1.1875rem;
   font-weight: 300;
   text-shadow: 1px -2px 2px rgba(0, 0, 0, 0.43); }
+  @media screen and (max-width: 576px) {
+    .header-content {
+      font-size: 0.9375rem; } }
 
 .yellow {
   color: #fcc20f;
@@ -52,7 +55,7 @@ ul {
   @media screen and (max-width: 576px) {
     .hero-body {
       justify-content: start;
-      margin-bottom: 30px; } }
+      margin-bottom: 60px; } }
 
 .main-title {
   font-size: 3.9375rem;
@@ -61,7 +64,7 @@ ul {
   margin-bottom: 74px; }
   @media screen and (max-width: 576px) {
     .main-title {
-      font-size: 2.25rem;
+      font-size: 2rem;
       line-height: 1.2;
       margin-bottom: 20px; } }
 
@@ -125,11 +128,17 @@ h2.title {
   font-size: 3.1875rem;
   letter-spacing: -0.21px;
   line-height: 2.1875rem; }
+  @media screen and (max-width: 576px) {
+    .num-big {
+      font-size: 2.625rem; } }
 
 .nums {
   height: 60px;
   margin-top: 0.9rem;
   margin-left: 0.95rem; }
+  @media screen and (max-width: 576px) {
+    .nums {
+      margin-left: -15px; } }
 
 .num-txt {
   font-size: 0.75rem;

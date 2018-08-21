@@ -35,6 +35,9 @@
   font-size: remy(19px);
   font-weight: 300;
   text-shadow: 1px -2px 2px rgba(0, 0, 0, 0.43);
+  @media screen and (max-width: 576px)  {
+    font-size: remy(15px);
+  }
 }
 .yellow {
   color: #fcc20f;
@@ -52,7 +55,7 @@
   justify-content: center;
   @media screen and (max-width: 576px) {
     justify-content: start;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
 }
 .main-title {
@@ -61,7 +64,7 @@
   line-height: remy(62px);
   margin-bottom: 74px;
   @media screen and (max-width: 576px) {
-    font-size: remy(36px);
+    font-size: remy(32px);
     line-height: 1.2;
     margin-bottom: 20px;
   }

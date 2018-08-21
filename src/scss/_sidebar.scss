@@ -28,12 +28,18 @@
   font-size: remy(51px);
   letter-spacing: -0.21px;
   line-height: remy(35px);
+  @media screen and (max-width: 576px) {
+    font-size: remy(42px);
+  }
 }
 
 .nums {
   height: 60px;
   margin-top: 0.9rem;
   margin-left: 0.95rem;
+  @media screen and (max-width: 576px) {
+    margin-left: -15px;
+  }
 }
 
 .num-txt {
