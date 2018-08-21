@@ -168,11 +168,11 @@
   border-radius: 2px;
   color: #fff;
   list-style: none;
-  width: 512px;
-  height: 41px;
+  width: max-content;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0.5em;
   margin-bottom: 0.6em;
 }
 
