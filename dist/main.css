@@ -199,6 +199,12 @@ h2.title {
   margin-left: -4px;
   text-align: left; }
 
+.sharp {
+  color: #444;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 0.6875rem; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
