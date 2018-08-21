@@ -47,11 +47,24 @@
 //  background: url(../img/eth.png) top center/cover no-repeat;
 //  height: 730px;
 //}
+.hero-body {
+  display: flex;
+  justify-content: center;
+  @media screen and (max-width: 576px) {
+    justify-content: start;
+    margin-bottom: 30px;
+  }
+}
 .main-title {
   font-size: remy(63px);
   font-weight: 300;
   line-height: remy(62px);
   margin-bottom: 74px;
+  @media screen and (max-width: 576px) {
+    font-size: remy(36px);
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
 }
 .bold {
   font-weight: 600;
@@ -61,16 +74,27 @@
   font-weight: 400;
   line-height: remy(63px);
   text-transform: uppercase;
+  @media screen and (max-width: 576px) {
+    font-size: remy(48px);
+    line-height: 1.2;
+  }
 }
 .subtitle {
   font-size: remy(73px);
   font-weight: 400;
   line-height: remy(50px);
   text-transform: uppercase;
+  @media screen and (max-width: 576px) {
+    font-size: remy(42px);
+    line-height: 1.2;
+  }
 }
 .eth {
   text-shadow: 0 0 0.5em #fcc20f;
 }
 h2.title {
   margin-bottom: 28px !important;
+  @media screen and (max-width: 576px) {
+    margin-bottom: 14px !important;
+  }
 }

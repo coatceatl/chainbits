@@ -2,6 +2,9 @@
   background: url(../img/bg-footer.png) top center/cover no-repeat;
   padding-top: 95px;
   height: 456px;
+  @media screen and (max-width: 576px) {
+    padding-top: 15px;
+  }
 }
 .footer-header {
   font-size: remy(20px);

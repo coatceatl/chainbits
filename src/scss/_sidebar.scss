@@ -173,11 +173,18 @@
     text-decoration: none;
   }
 }
+.main-bottom {
+  padding-bottom: 31px;
+}
 .main-bottom__text {
   font-size: remy(20px);
   font-weight: 300;
   line-height: remy(38px);
   text-shadow: 1px -2px 2px rgba(0, 0, 0, 0.43);
+  @media screen and (max-width: 576px) {
+    font-size: remy(16px);
+    line-height: 1.5;
+  }
 }
 .main-bottom__link {
   text-decoration: underline;

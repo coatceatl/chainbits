@@ -46,11 +46,24 @@ ul {
   margin-left: 5px; }
 
 /* main */
+.hero-body {
+  display: flex;
+  justify-content: center; }
+  @media screen and (max-width: 576px) {
+    .hero-body {
+      justify-content: start;
+      margin-bottom: 30px; } }
+
 .main-title {
   font-size: 3.9375rem;
   font-weight: 300;
   line-height: 3.875rem;
   margin-bottom: 74px; }
+  @media screen and (max-width: 576px) {
+    .main-title {
+      font-size: 2.25rem;
+      line-height: 1.2;
+      margin-bottom: 20px; } }
 
 .bold {
   font-weight: 600; }
@@ -60,18 +73,29 @@ ul {
   font-weight: 400;
   line-height: 3.9375rem;
   text-transform: uppercase; }
+  @media screen and (max-width: 576px) {
+    .title {
+      font-size: 3rem;
+      line-height: 1.2; } }
 
 .subtitle {
   font-size: 4.5625rem;
   font-weight: 400;
   line-height: 3.125rem;
   text-transform: uppercase; }
+  @media screen and (max-width: 576px) {
+    .subtitle {
+      font-size: 2.625rem;
+      line-height: 1.2; } }
 
 .eth {
   text-shadow: 0 0 0.5em #fcc20f; }
 
 h2.title {
   margin-bottom: 28px !important; }
+  @media screen and (max-width: 576px) {
+    h2.title {
+      margin-bottom: 14px !important; } }
 
 .sidebar {
   padding-left: 30px !important;
@@ -237,11 +261,18 @@ h2.title {
   .signup-link:hover {
     text-decoration: none; }
 
+.main-bottom {
+  padding-bottom: 31px; }
+
 .main-bottom__text {
   font-size: 1.25rem;
   font-weight: 300;
   line-height: 2.375rem;
   text-shadow: 1px -2px 2px rgba(0, 0, 0, 0.43); }
+  @media screen and (max-width: 576px) {
+    .main-bottom__text {
+      font-size: 1rem;
+      line-height: 1.5; } }
 
 .main-bottom__link {
   text-decoration: underline;
@@ -253,6 +284,9 @@ h2.title {
   background: url(img/bg-footer.png) top center/cover no-repeat;
   padding-top: 95px;
   height: 456px; }
+  @media screen and (max-width: 576px) {
+    .footer {
+      padding-top: 15px; } }
 
 .footer-header {
   font-size: 1.25rem;
