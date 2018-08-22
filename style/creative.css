@@ -3,45 +3,45 @@
 
 
 .logo {
-	width: 3.5em;
-	height: auto;
-	position: relative;
-	float: left;
-	margin-top: 0.2em;
+  width: 3.5em;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-top: 0.2em;
 }
 
 .btn {
-	border-radius: 1.2em;
-	width: 10.2em;
-	font-size: 0.35em;
-	padding: 0.35em 0;
-	display: block;
-	text-align: center;
-	margin: 0;
-	cursor: pointer;
+  border-radius: 1.2em;
+  width: 10.2em;
+  font-size: 0.35em;
+  padding: 0.35em 0;
+  display: block;
+  text-align: center;
+  margin: 0;
+  cursor: pointer;
 }
 
 .hollow {
-	background-color: transparent;
-	border: 2px solid #15abe3;
-	box-shadow: -0em -0em 1.5em rgba(21,171,227,0.7);
+  background-color: transparent;
+  border: 2px solid #15abe3;
+  box-shadow: -0em -0em 1.5em rgba(21,171,227,0.7);
 
 }
 
 .hollow:hover {
-	box-shadow: -0em -0em 1.5em rgba(21,171,227,1);
+  box-shadow: -0em -0em 1.5em rgba(21,171,227,1);
 }
 
 .white_btn:hover {
-	box-shadow: -0em -0em 1.5em rgba(292,194,15,0.3);
+  box-shadow: -0em -0em 1.5em rgba(292,194,15,0.3);
 }
 
 .login {
-	float: right;
+  float: right;
 }
 
 .header {
-	margin-bottom: 0.85em;
+  margin-bottom: 0.85em;
 
   /**/
   display: flex;
@@ -57,72 +57,72 @@
 }
 
 .content {
-	float: left;
-	width: 16em;
+  float: left;
+  width: 16em;
 }
 
 .sidebar {
-	position: absolute;
-	top: 2em;
-	right: 0;
-	width: 7.55em;
-	font-size: 2.3em;
+  position: absolute;
+  top: 2em;
+  right: 0;
+  width: 7.55em;
+  font-size: 2.3em;
 }
 
 .light {
-	font-size: 0.416em;
-	line-height: 1.27em;
+  font-size: 0.416em;
+  line-height: 1.27em;
   margin-bottom: 7em;
 }
 
 .txt-info {
   font-size: 0.416em;
-	line-height: 1.27em;
+  line-height: 1.27em;
+  width: max-content;
 }
 .yellow {
-	color: #fcc20f;
-	font-weight: 600;
+  color: #fcc20f;
+  font-weight: 600;
 }
 
 .main_title {
-   width: 8em;
-	font-weight: 300;
-	font-size: 3.16em;
-	margin: 0;
-	padding: 0;
-	line-height: 1.1em;
-	text-indent: 0;
-	display: block;
-	margin-left: -0.055em;
-	
+  width: 8em;
+  font-weight: 300;
+  font-size: 3.16em;
+  margin: 0;
+  padding: 0;
+  line-height: 1.1em;
+  text-indent: 0;
+  display: block;
+  margin-left: -0.055em;
 }
 
 .title2 {
-	font-size: 3.16em;
-	width: 9em;
-	text-align: right;
-	height: 5.3em;
-	padding-top: 1.8em;
-	background-image: url(../images/eth.png?V=1);
-	background-size: auto 100%;
-	background-position: left center;
-	background-repeat: no-repeat;
-	margin-left: -0.9em;
-	margin-bottom: 0.1em;
+  font-size: 4em;
+  width: 9em;
+  text-align: right;
+  height: 5.3em;
+  padding-top: 1.8em;
+  background-image: url(../images/eth.png?V=1);
+  background-size: auto 100%;
+  background-position: left center;
+  background-repeat: no-repeat;
+  margin-left: -0.9em;
+  margin-bottom: 0.1em;
   font-family: "Titillium Web - Semi Bold";
 }
 .subtitle {
   display: block;
-	font-size: 0.79em;
-	text-align: right;
-	height: 3.3em;
-//	padding-top: 0.9em;
+  font-size: 0.79em;
+  text-align: right;
+  height: 3.3em;
+//padding-top: 0.9em;
   margin-right: -0.1em;
   font-family: "Titillium Web - Semi Bold";
 }
 
 .eth {
-	text-shadow: 0 0 0.5em #fcc20f;
+  text-shadow: 0 0 0.5em #fcc20f;
 }
 
 .white_btn {
@@ -183,6 +183,10 @@
   color: #15abe3;
 	text-decoration: underline;
 	cursor: pointer;
+}
+.lightblue:hover {
+  color: #15abe3 !important;
+  text-decoration: none;
 }
 .link {
   font-size: 0.8em;
@@ -521,7 +525,6 @@ width: 95%;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  vertical-align: baseline;
 }
 
 
