@@ -102,21 +102,23 @@
 	width: 9em;
 	text-align: right;
 	height: 5.3em;
-	padding-top: 2.1em;
+	padding-top: 1.8em;
 	background-image: url(../images/eth.png?V=1);
 	background-size: auto 100%;
 	background-position: left center;
 	background-repeat: no-repeat;
 	margin-left: -0.9em;
 	margin-bottom: 0.1em;
+  font-family: "Titillium Web - Semi Bold";
 }
 .subtitle {
   display: block;
 	font-size: 0.79em;
 	text-align: right;
 	height: 3.3em;
-	padding-top: 0.9em;
+//	padding-top: 0.9em;
   margin-right: -0.1em;
+  font-family: "Titillium Web - Semi Bold";
 }
 
 .eth {
@@ -508,4 +510,20 @@
     align-items: center;
 width: 95%;
 }
+.main-links {
+  width: 45%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-links__right {
+  width: 50%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  vertical-align: baseline;
+}
+
+
 
