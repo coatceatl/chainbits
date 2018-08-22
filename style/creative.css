@@ -398,19 +398,18 @@
 }
 .nav-item {
   position: relative;
-  &:after {
+}
+.nav-item:after {
     content: '';
     position: absolute;
     top: 50%;
-    width: 38px;
+    left: 50%;
+    width: 0.76em;
     border: 1px solid rgba(226,226,226,.1);
-    margin-left: 15px;
-  }
- &:last-child {
-   &:after {
+    margin-left: 0.4em;
+}
+.nav-item:last-child:after {
      display: none;
-   }
- }
 }
 .sidebar-title {
   margin-top: 22px;
@@ -505,7 +504,7 @@
 }
 .buttons-form {
   display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     align-items: center;
 width: 95%;
