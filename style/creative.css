@@ -487,9 +487,13 @@
   border-radius: 5px;
   padding-left: 13px;
   height: 42px;
+  font-size: initial;
   &:hover {
     box-shadow: 0 0 13px rgba(83, 208, 255, 0.09);
 
   }
+}
+.buttons-form {
+  display: flex;
 }
 
