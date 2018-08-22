@@ -57,6 +57,9 @@
   align-items: baseline;
   margin-top: 1em;
 }
+.header-login {
+  margin-right: -2em;
+}
 
 .content {
   float: left;
@@ -108,17 +111,18 @@
 
 .title2 {
   font-size: 4em;
-  width: 9em;
+  width: 8.5em;
   text-align: right;
   height: 5.3em;
-  padding-top: 1.8em;
+  padding-top: 1.7em;
   background-image: url(../images/eth.png?V=1);
   background-size: auto 100%;
   background-position: left center;
   background-repeat: no-repeat;
   margin-left: -0.9em;
   margin-bottom: 0.1em;
-  font-family: "Titillium Web - Semi Bold";
+  font-family: "Titillium Web";
+  font-weight: 600;
 }
 .subtitle {
   display: block;
@@ -127,7 +131,8 @@
   height: 3.3em;
 //padding-top: 0.9em;
   margin-right: -0.1em;
-  font-family: "Titillium Web - Semi Bold";
+  font-family: "Titillium Web";
+  font-weight: 600;
 }
 
 .eth {
