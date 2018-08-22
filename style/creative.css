@@ -538,6 +538,9 @@
   .main-links__right {
     align-items: flex-start;
   }
+  .header-login {
+    margin-right: 0;
+  }
 }
 
 
