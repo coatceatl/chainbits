@@ -348,10 +348,26 @@
 
 
 
-.form-nav__list.nav.nav-pills {
+.nav-pills {
   width: 100%;
   justify-content: space-between;
   margin-top: 28px;
+  display: flex;
+  list-style: none;
+}
+.nav-link {
+  border-radius: 4px !important;
+  background-color: rgba(160,160,160,.35) !important;
+  width: 22px;
+  height: 23px;
+  font-size: 0.25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+}
+.nav-link.active {
+  background-color: #15abe3 !important;
 }
 .btn.sidebar-btn {
   font-size: 15px;
@@ -385,19 +401,6 @@
      display: none;
    }
  }
-}
-.bordered.nav-link {
-  width: 23px;
-  height: 23px;
-  padding: 0 !important;
-  background-color: rgba(160,160,160,.35);
-  color: #fff;
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .sidebar-title {
   margin-top: 22px;
