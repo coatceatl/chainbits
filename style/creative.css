@@ -42,6 +42,7 @@
 
 .header {
   margin-bottom: 0.85em;
+  position: relative;
 
   /**/
   display: flex;
@@ -54,6 +55,7 @@
 .header-logo {
   display: flex;
   align-items: baseline;
+  margin-top: 1em;
 }
 
 .content {
@@ -72,7 +74,14 @@
 .light {
   font-size: 0.416em;
   line-height: 1.27em;
-  margin-bottom: 7em;
+  margin-bottom: 4em;
+}
+
+.txt1 {
+  display: inline-flex;
+  position: absolute;
+  top: 4.4em;
+  left: 10em;
 }
 
 .txt-info {
@@ -247,6 +256,9 @@
 
 .timer_title {
   font-size: 1em;
+  position: absolute;
+  top: 0;
+  right: 4.5em;
 }
 
 .num {
