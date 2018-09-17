@@ -361,6 +361,11 @@ h2.title {
   background-color: #000;
   opacity: 0.4; }
 
+.banner-content {
+  width: 300px;
+  height: 250px;
+  background: url(img/bg-banner.png) center center no-repeat; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors

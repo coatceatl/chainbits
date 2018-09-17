@@ -159,9 +159,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jque
   !*** ./src/scss/main.scss ***!
   \****************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/scss/main.scss?");
+eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/lib/loader.js):\\n\\n@import '_add.scss';\\n^\\n      File to import not found or unreadable: /home/oksana/work/freelance/xplace/chainbits/src/scss/_add.scss.\\n      in /home/oksana/work/freelance/xplace/chainbits/src/scss/_custom.scss (line 17, column 1)\\n    at runLoaders (/home/oksana/work/freelance/xplace/chainbits/node_modules/webpack/lib/NormalModule.js:284:20)\\n    at /home/oksana/work/freelance/xplace/chainbits/node_modules/loader-runner/lib/LoaderRunner.js:364:11\\n    at /home/oksana/work/freelance/xplace/chainbits/node_modules/loader-runner/lib/LoaderRunner.js:230:18\\n    at context.callback (/home/oksana/work/freelance/xplace/chainbits/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\\n    at Object.asyncSassJobQueue.push [as callback] (/home/oksana/work/freelance/xplace/chainbits/node_modules/sass-loader/lib/loader.js:67:13)\\n    at Object.done [as callback] (/home/oksana/work/freelance/xplace/chainbits/node_modules/neo-async/async.js:7974:18)\\n    at options.error (/home/oksana/work/freelance/xplace/chainbits/node_modules/node-sass/lib/index.js:294:32)\");\n\n//# sourceURL=webpack:///./src/scss/main.scss?");
 
 /***/ }),
 

@@ -3,7 +3,7 @@ import 'bootstrap';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery-countdown';
 
-var date='2018/09/03';
+var date='2018/10/03';
 
 $(document).ready(function() {
   $('#days').countdown(date, function(e) {
